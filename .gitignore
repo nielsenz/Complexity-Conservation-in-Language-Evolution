@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.Rhistory
+venv/
+.env/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+*.ipynb_checkpoints/
+display/latin-spanish-complexity/paper/manuscript.pdf
+display/latin-spanish-complexity/paper/manuscript.html
