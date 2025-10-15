@@ -91,34 +91,32 @@ python corpus_downloader.py
 
 Downloads historical texts to populate the corpus directory.
 
-## Key Research Findings
+## Key Research Findings (Corrected)
 
-The analysis has found statistically significant evidence supporting the complexity conservation hypothesis:
+The analysis finds statistically significant evidence on two measures consistent with complexity conservation:
 
-### Article Development (p=0.0014, Kruskal-Wallis)
-- Classical Latin: mean 0.485 articles per unit (95% CI: [0.412, 0.558])
-- Medieval Latin: mean 1.887 articles per unit (95% CI: [1.378, 2.393]) 
-- Spanish: mean 0.858 articles per unit (95% CI: [0.697, 1.018])
-- **Conclusion**: Spanish developed articles to compensate for lost Latin case markings
+### Article Development (Kruskal–Wallis p = 0.0007)
+- Classical Latin: mean 0.000 per 1000 words (95% CI: [0.000, 0.000])
+- Medieval Latin: mean 0.000 per 1000 words (95% CI: [0.000, 0.000])
+- Early Spanish: mean 107.018 per 1000 words (95% CI: [85.774, 122.359])
 
-### Analytical Construction Shift (p=0.0001, Fisher's Exact)
-- Classical Latin: 6,182 synthetic constructions, 0 analytical
-- Medieval Latin: 0 constructions detected (transitional period)
-- Spanish: 0 synthetic, 22 analytical constructions
-- **Conclusion**: Highly significant shift from synthetic to analytical forms
+### Analytical Construction Shift (Fisher’s exact 2×2: Classical vs. Spanish, p = 0.0001)
+- Classical Latin: 6,182 synthetic, 0 analytical
+- Medieval Latin: 0/0 (model limitation; reported descriptively)
+- Early Spanish: 0 synthetic, 22 analytical
 
-### Dependency Complexity Evolution (p=0.1140, Kruskal-Wallis)
-- Classical Latin: mean 3.97 depth (95% CI: [3.76, 4.17])
-- Medieval Latin: mean 8.73 depth (95% CI: [4.80, 13.62])
-- Spanish: mean 4.52 depth (95% CI: [3.34, 5.59])
-- **Conclusion**: Suggests compensatory mechanisms during transitional periods
+### Dependency Complexity (Kruskal–Wallis p = 0.1140)
+- Classical Latin: mean 3.973 depth (95% CI: [3.756, 4.174])
+- Medieval Latin: mean 8.734 depth (95% CI: [4.803, 13.619])
+- Early Spanish: mean 4.516 depth (95% CI: [3.339, 5.591])
 
-### Publication Status
-Research findings are ready for academic publication with:
-- Statistically significant results across multiple complexity metrics
-- Novel computational methodology for historical linguistics
-- Clear support for complexity conservation hypothesis
-- Appropriate non-parametric statistical methods for small historical samples
+Notes:
+- Medieval analytical forms are underdetected by the Classical-trained Latin model; inference restricted to Classical↔Spanish for the categorical test.
+
+### Display-Only Repository
+- Distribution bundle (figures, tables, processed outputs) is mirrored at:
+  - https://github.com/nielsenz/Complexity-Conservation-in-Language-Evolution-Display
+  Use this for sharing/citation; main code remains in this repository.
 
 ## Important Notes
 

@@ -13,5 +13,3 @@ env/
 dist/
 build/
 *.ipynb_checkpoints/
-display/latin-spanish-complexity/paper/manuscript.pdf
-display/latin-spanish-complexity/paper/manuscript.html

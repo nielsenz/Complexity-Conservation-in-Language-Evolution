@@ -69,11 +69,23 @@ linguistics/
 │   ├── classical_latin/     # Caesar, Cicero, Livy, Sallust
 │   ├── medieval_latin/      # Gregory of Tours, Bede, Isidore
 │   └── early_spanish/       # Auto, Cid, Berceo, Fuero
+├── display/                 # Distribution bundle (figures, tables, processed data)
+│   └── latin-spanish-complexity/
+│       ├── code/            # Plotting helpers
+│       ├── data/            # processed/ + raw_texts/
+│       ├── paper/           # PANDOC_CONVERSION.md (+ optional manuscript outputs)
+│       └── results/         # figures/ + tables/
 ├── corpus_downloader.py     # Text collection from web sources
 ├── example 1.py            # Main analysis pipeline
 ├── results.md              # Detailed computational results
 └── research-status-doc.md  # Comprehensive research documentation
 ```
+
+### Display-Only Repository
+
+- A public, distribution-only mirror of `display/latin-spanish-complexity` is available at:
+  - https://github.com/nielsenz/Complexity-Conservation-in-Language-Evolution-Display
+- It contains the figures, tables, processed outputs, and minimal code to regenerate displays, for easy sharing/citation.
 
 ## Detailed Results
 
