@@ -1,0 +1,48 @@
+2025-08-06 09:58:55 INFO: Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json:   0%|          | 0.00/53.5k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json: 433kB [00:00, 280MB/s]                     
+2025-08-06 09:58:55 INFO: Downloaded file to /Users/znielsen/stanza_resources/resources.json
+2025-08-06 09:58:55 INFO: Loading these models for language: la (Latin):
+=============================
+| Processor | Package       |
+-----------------------------
+| tokenize  | ittb          |
+| mwt       | ittb          |
+| pos       | ittb_nocharlm |
+| lemma     | ittb_nocharlm |
+| depparse  | ittb_nocharlm |
+=============================
+
+2025-08-06 09:58:55 INFO: Using device: cpu
+2025-08-06 09:58:55 INFO: Loading: tokenize
+2025-08-06 09:58:56 INFO: Loading: mwt
+2025-08-06 09:58:56 INFO: Loading: pos
+2025-08-06 09:58:57 INFO: Loading: lemma
+2025-08-06 09:58:57 INFO: Loading: depparse
+2025-08-06 09:58:57 INFO: Done loading processors!
+2025-08-06 09:58:57 INFO: Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json:   0%|          | 0.00/53.5k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json: 433kB [00:00, 21.8MB/s]                    
+2025-08-06 09:58:57 INFO: Downloaded file to /Users/znielsen/stanza_resources/resources.json
+2025-08-06 09:58:58 INFO: Loading these models for language: es (Spanish):
+====================================
+| Processor    | Package           |
+------------------------------------
+| tokenize     | combined          |
+| mwt          | combined          |
+| pos          | combined_charlm   |
+| lemma        | combined_nocharlm |
+| constituency | combined_charlm   |
+| depparse     | combined_charlm   |
+| sentiment    | tass2020_charlm   |
+| ner          | conll02           |
+====================================
+
+2025-08-06 09:58:58 INFO: Using device: cpu
+2025-08-06 09:58:58 INFO: Loading: tokenize
+2025-08-06 09:58:58 INFO: Loading: mwt
+2025-08-06 09:58:58 INFO: Loading: pos
+2025-08-06 09:58:59 INFO: Loading: lemma
+2025-08-06 09:58:59 INFO: Loading: constituency
+2025-08-06 09:59:00 INFO: Loading: depparse
+2025-08-06 09:59:00 INFO: Loading: sentiment
+2025-08-06 09:59:00 INFO: Loading: ner
+2025-08-06 09:59:01 INFO: Done loading processors!
